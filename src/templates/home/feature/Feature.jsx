@@ -24,15 +24,22 @@ function Feature() {
         <Featured>
           <Container>
             <img src={img} width="120" />
-            <Typography>
+            <Typography style={{ fontFamily: "satoshi", fontSize: 16 }}>
               We are startup building the next pro portfolio management
               platform. Get comprehensive and accurate portfolio data to better
               understand our financial situation, Trade with all proper
               information you need optimize your portfolio for taxation.
             </Typography>
 
-            <Button variant="text" style={{ color: "#000", marginTop: "15px" }}>
-              we're hiring <ArrowForwardIcon />
+            <Button
+              variant="text"
+              style={{
+                color: "#000",
+                marginTop: "15px",
+                textTransform: "capitalize",
+              }}
+            >
+              We're hiring <ArrowForwardIcon />
             </Button>
           </Container>
         </Featured>

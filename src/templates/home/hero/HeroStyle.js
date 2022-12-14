@@ -10,6 +10,7 @@ export const HeroWrapper = styled.div`
       font-size: 60px;
       font-weight: 500;
       margin-top: 0px;
+      color: #272927;
       @media (max-width: 465px) {
         font-size: 40px;
       }
@@ -36,6 +37,8 @@ export const SearchFields = styled.div`
   gap: 20px;
   input {
     font-size: 16px;
+    font-weight: 400 !important;
+    color: #575757;
   }
   > div {
     flex: 1;

@@ -14,6 +14,7 @@ export const Header = styled.div`
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 0.35em;
+    color: #272927;
   }
 `;
 export const FeatureContent = styled.div`
@@ -66,9 +67,12 @@ export const CommunityCTA = styled.div`
   > h5 {
     margin-bottom: 20px;
     font-family: "satoshi";
+    font-weight: 500;
+    font-size: 40px;
   }
   > button {
     margin: 10px;
     font-family: "satoshi";
+    text-transform: capitalize;
   }
 `;
