@@ -3,6 +3,10 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   background: #f3f0eb;
   padding: 50px 0px;
+  font-family: "satoshi" !important;
+  h4 {
+    font-family: "satoshi" !important;
+  }
 `;
 
 export const ServiceWrapper = styled.div`
@@ -22,6 +26,14 @@ export const ServiceRow = styled.div`
   display: flex;
   padding: 70px 0px;
   box-sizing: border-box;
+  h5 {
+    font-family: "studio" !important;
+    color: #272927;
+  }
+  p {
+    font-family: "satoshi" !important;
+    font-size: 16px;
+  }
   > div {
     flex: 1;
     height: auto;
@@ -46,6 +58,9 @@ export const ServiceRow = styled.div`
     color: #fff;
     align-self: center;
     margin-top: 20px;
+    font-family: "satoshi" !important;
+    text-transform: capitalize;
+    font-size: 14px;
     &.inactive {
       background: rgba(87, 87, 87, 0.1);
       color: #575757;

@@ -11,10 +11,13 @@ export const NavbarWrapper = styled.div`
 `;
 export const NavMenu = styled.ul`
   list-style: none;
-  font-family: "studio";
+  font-family: "studio" !important;
   margin: 0px;
   padding: 0px;
-  font-size: 14px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #575757;
+
   > li {
     /* float: left; */
     display: inline;
@@ -22,7 +25,7 @@ export const NavMenu = styled.ul`
   }
   > li > a {
     text-decoration: none;
-    color: #000;
+    color: #575757;
   }
   @media (max-width: 768px) {
     /* display: none; */

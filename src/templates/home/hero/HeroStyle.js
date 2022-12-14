@@ -34,6 +34,9 @@ export const SearchFields = styled.div`
   display: flex;
   flex-direction: row;
   gap: 20px;
+  input {
+    font-size: 16px;
+  }
   > div {
     flex: 1;
   }

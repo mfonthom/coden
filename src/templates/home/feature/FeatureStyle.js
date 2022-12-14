@@ -31,6 +31,12 @@ export const Featured = styled.div`
   gap: 30px;
   width: 50%;
   box-sizing: border-box;
+  font-family: "satoshi";
+  color: #575757;
+  font-weight: 400;
+  button {
+    font-family: "satoshi";
+  }
   @media (max-width: 768px) {
     width: 100%;
     padding: 50px;
@@ -56,10 +62,13 @@ export const CommunityCTA = styled.div`
   text-align: center;
   margin-top: 0px;
   padding: 70px 0px;
+  font-family: "satoshi";
   > h5 {
     margin-bottom: 20px;
+    font-family: "satoshi";
   }
   > button {
     margin: 10px;
+    font-family: "satoshi";
   }
 `;

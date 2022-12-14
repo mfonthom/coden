@@ -16,8 +16,9 @@ export const GlobalStyle = createGlobalStyle`
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        font-family: 'satoshi';
+        font-family: 'satoshi' !important;
         background: #fff;
+        color: #575757;
     }
     h1{
         font-family: 'studio';
