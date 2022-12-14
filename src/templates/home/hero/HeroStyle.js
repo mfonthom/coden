@@ -41,6 +41,9 @@ export const SearchFields = styled.div`
     color: #575757;
     &::placeholder {
       font-weight: 400 !important;
+      font-family: "satoshi" !important;
+      opacity: 1;
+      color: #575757;
     }
   }
   > div {

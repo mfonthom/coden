@@ -71,6 +71,15 @@ export const ServiceRow = styled.div`
 export const MobileService = styled.div`
   padding: 80px 0px;
   display: none;
+
+  h5 {
+    font-family: "studio" !important;
+    color: #272927;
+  }
+  p {
+    font-family: "satoshi" !important;
+    font-size: 16px;
+  }
   @media (max-width: 768px) {
     display: block;
   }
