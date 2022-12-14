@@ -39,6 +39,9 @@ export const SearchFields = styled.div`
     font-size: 16px;
     font-weight: 400 !important;
     color: #575757;
+    &::placeholder {
+      font-weight: 400 !important;
+    }
   }
   > div {
     flex: 1;
