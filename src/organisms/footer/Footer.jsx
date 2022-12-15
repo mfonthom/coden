@@ -61,7 +61,7 @@ const Footer = () => {
           <Button
             variant="text"
             className="inactive"
-            style={{ color: "#575757", fontWeight: 400 }}
+            style={{ color: "#575757" }}
           >
             Hiring ?
           </Button>

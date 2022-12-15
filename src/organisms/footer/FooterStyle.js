@@ -49,6 +49,10 @@ export const FooterBtn = styled.div`
   display: flex;
   gap: 20px;
   align-items: center;
+  button {
+    font-family: "satoshi" !important;
+    text-transform: capitalize;
+  }
   @media (max-width: 768px) {
     width: 100%;
     justify-content: space-between;
