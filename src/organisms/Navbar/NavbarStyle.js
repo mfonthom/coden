@@ -128,7 +128,12 @@ export const DropdownMenu = styled.div`
     margin: 0px;
     padding: 0px;
     > li {
-      margin: 10px 0px;
+      /* margin: 10px 0px; */
+      padding: 10px;
+      border-radius: 5px;
+      &:hover {
+        border: 2px solid #26619c;
+      }
     }
     > li > a {
       text-decoration: none;
