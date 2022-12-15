@@ -33,12 +33,13 @@ export const ServiceRow = styled.div`
   p {
     font-family: "satoshi" !important;
     font-size: 16px;
+    margin-top: 16px;
   }
   > div {
     flex: 1;
     height: auto;
     border-left: 1px solid #ccc;
-    padding: 20px;
+    padding: 30px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -50,21 +51,25 @@ export const ServiceRow = styled.div`
     margin: auto;
     display: flex;
     align-self: center;
-    margin-bottom: 40px;
+    margin-bottom: 32px;
   }
 
   button {
-    background: #26619c;
-    color: #fff;
+    background: rgba(87, 87, 87, 0.1);
+    color: #575757;
     align-self: center;
     margin-top: 20px;
     font-family: "satoshi" !important;
     text-transform: capitalize;
     font-size: 14px;
-    &.inactive {
+    &:hover {
+      background: #26619c;
+      color: #fff;
+    }
+    /* &.inactive {
       background: rgba(87, 87, 87, 0.1);
       color: #575757;
-    }
+    } */
   }
 `;
 
@@ -82,5 +87,23 @@ export const MobileService = styled.div`
   }
   @media (max-width: 768px) {
     display: block;
+  }
+`;
+
+export const SlideArrow = styled.div`
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1.6px solid #26619c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 35%;
+  &.right {
+    right: 0;
+  }
+  &.left {
+    left: 0;
   }
 `;

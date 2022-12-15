@@ -17,6 +17,10 @@ export const NavMenu = styled.ul`
   font-weight: 400;
   font-size: 16px;
   color: #575757;
+  width: 304px;
+  position: absolute;
+  left: 50%;
+  margin-left: -152px;
 
   > li {
     /* float: left; */
@@ -107,7 +111,7 @@ export const NavLeftMenu = styled.div`
 
 export const DropdownMenu = styled.div`
   position: absolute;
-  width: 200px;
+  width: 298px;
   background: #fff;
   top: 80px;
   right: 100%;
@@ -120,7 +124,7 @@ export const DropdownMenu = styled.div`
   }
   > ul {
     list-style: none;
-    font-size: 14px;
+    font-size: 16px;
     margin: 0px;
     padding: 0px;
     > li {
@@ -133,7 +137,7 @@ export const DropdownMenu = styled.div`
     > li > a > div {
       display: flex;
       align-items: center;
-      gap: 5px;
+      gap: 10px;
     }
   }
   .close {

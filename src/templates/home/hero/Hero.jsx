@@ -54,16 +54,16 @@ const Hero = () => {
           <img src={img} width="100%" alt="cryptocurrencies" />
         </div>
       </HeroWrapper>
-      <Marquee speed={100}>
+      <Marquee speed={80}>
         <CryptoLogos>
-          <Icon.Avalanche />
-          <Icon.Binance />
-          <Icon.Cardano />
-          <Icon.Fantom />
-          <Icon.Ethereum />
-          <Icon.Polkadot />
-          <Icon.Solana />
-          <Icon.Tron />
+          <Icon.Avalanche width={100} />
+          <Icon.Binance width={100} />
+          <Icon.Cardano width={100} />
+          <Icon.Fantom width={100} />
+          <Icon.Ethereum width={100} />
+          <Icon.Polkadot width={100} />
+          <Icon.Solana width={100} />
+          <Icon.Tron width={100} />
         </CryptoLogos>
       </Marquee>
     </Container>

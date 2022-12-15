@@ -48,6 +48,7 @@ export const FooterSocialIcon = styled.div`
 export const FooterBtn = styled.div`
   display: flex;
   gap: 20px;
+  align-items: center;
   @media (max-width: 768px) {
     width: 100%;
     justify-content: space-between;

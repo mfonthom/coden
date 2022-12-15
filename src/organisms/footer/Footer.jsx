@@ -6,15 +6,16 @@ import {
   FooterMenuListWrapper,
   FooterMenuList,
 } from "./FooterStyle";
+import { Container } from "@mui/material";
 import { Link } from "react-router-dom";
 import Icon from "../../assets/icon";
 import { Button } from "@mui/material";
 import KeyboardArrowRightOutlinedIcon from "@mui/icons-material/KeyboardArrowRightOutlined";
 // import KeyboardArrowD from "@mui/icons-material/KeyboardArrowRightOutlined";
-
+import CustomButton from "../../atoms/button/CustomButton";
 const Footer = () => {
   return (
-    <>
+    <Container>
       <FooterMenuListWrapper>
         <FooterMenuList>
           <Link to="#">Sign In</Link>
@@ -64,15 +65,16 @@ const Footer = () => {
           >
             Hiring ?
           </Button>
-          <Button
+
+          <CustomButton
             variant="contained"
             endIcon={<KeyboardArrowRightOutlinedIcon />}
           >
             Post a Job
-          </Button>
+          </CustomButton>
         </FooterBtn>
       </Wrapper>
-    </>
+    </Container>
   );
 };
 

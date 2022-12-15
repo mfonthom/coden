@@ -39,6 +39,8 @@ export const SearchFields = styled.div`
     font-size: 16px;
     font-weight: 400 !important;
     color: #575757;
+    font-family: "satoshi" !important;
+
     &::placeholder {
       font-weight: 400 !important;
       font-family: "satoshi" !important;
@@ -57,5 +59,5 @@ export const SearchFields = styled.div`
 export const CryptoLogos = styled.div`
   margin: 100px 10px 0 10px;
   display: flex;
-  gap: 20px;
+  gap: 50px;
 `;

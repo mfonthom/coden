@@ -24,6 +24,8 @@ import { ReactComponent as Blog } from "./blog.svg";
 import { ReactComponent as Twitter } from "./twitter.svg";
 import { ReactComponent as Discord } from "./discord.svg";
 import { ReactComponent as Telegram } from "./telegram.svg";
+import { ReactComponent as ArrowLeft } from "./arrow-left.svg";
+import { ReactComponent as ArrowRight } from "./arrow-right.svg";
 
 export default {
   Logo,
@@ -52,4 +54,6 @@ export default {
   Twitter,
   Discord,
   Telegram,
+  ArrowLeft,
+  ArrowRight,
 };
