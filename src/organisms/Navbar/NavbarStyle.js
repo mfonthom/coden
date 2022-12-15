@@ -119,6 +119,8 @@ export const DropdownMenu = styled.div`
   border-radius: 10px;
   padding: 14px !important;
   display: none;
+  z-index: 100;
+  color: #222;
   h6 {
     font-size: 14px;
   }
@@ -155,6 +157,7 @@ export const DropdownMenu = styled.div`
     display: block;
   }
   @media (max-width: 400px) {
-    right: 10%;
+    right: -90%;
+    width: 250px;
   }
 `;

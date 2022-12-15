@@ -47,7 +47,7 @@ function Feature() {
         autoPlaySpeed={2000}
         responsive={responsive}
         infinite={true}
-        showDots={true}
+        showDots={false}
         arrows={false}
       >
         <FeatureContent>
