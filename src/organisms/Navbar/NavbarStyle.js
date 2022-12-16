@@ -115,7 +115,7 @@ export const DropdownMenu = styled.div`
   width: 298px;
   background: #fff;
   top: 80px;
-  right: 100%;
+  right: 10%;
   box-shadow: -2px -2px 10px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   padding: 14px !important;
@@ -158,7 +158,7 @@ export const DropdownMenu = styled.div`
     display: block;
   }
   @media (max-width: 400px) {
-    right: -90%;
+    /* right: 0%; */
     width: 250px;
   }
 `;

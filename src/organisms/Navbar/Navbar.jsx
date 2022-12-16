@@ -84,52 +84,6 @@ function Navbar() {
                   {/* <Icon.Dropdown
                   style={{ margin: "20px 0", paddingLeft: "30px" }}
                 /> */}
-                  <DropdownMenu className={showWallets && "show"}>
-                    <div className="close">
-                      <Icon.Close onClick={() => setShowWallets(false)} />
-                    </div>
-                    <Typography variant="h6">
-                      Connect a wallet to continue
-                    </Typography>
-                    <ul>
-                      <li>
-                        <Link to="#">
-                          <div>
-                            <Icon.Brave width={16} /> Brave
-                          </div>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="#">
-                          <div>
-                            <Icon.Coinbase width={16} />
-                            Coinbase Wallet
-                          </div>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="#">
-                          <div>
-                            <Icon.Exodus width={16} /> Exodus
-                          </div>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="#">
-                          <div>
-                            <Icon.Slope width={16} /> Slope
-                          </div>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link>
-                          <div>
-                            <Icon.Phantom width={16} /> Phantom
-                          </div>
-                        </Link>
-                      </li>
-                    </ul>
-                  </DropdownMenu>
                 </NavIcons>
 
                 <MenuIcon>
@@ -142,6 +96,50 @@ function Navbar() {
             </NavEdge>
           </NavbarWrapper>
         </Container>
+        <DropdownMenu className={showWallets && "show"}>
+          <div className="close">
+            <Icon.Close onClick={() => setShowWallets(false)} />
+          </div>
+          <Typography variant="h6">Connect a wallet to continue</Typography>
+          <ul>
+            <li>
+              <Link to="#">
+                <div>
+                  <Icon.Brave width={16} /> Brave
+                </div>
+              </Link>
+            </li>
+            <li>
+              <Link to="#">
+                <div>
+                  <Icon.Coinbase width={16} />
+                  Coinbase Wallet
+                </div>
+              </Link>
+            </li>
+            <li>
+              <Link to="#">
+                <div>
+                  <Icon.Exodus width={16} /> Exodus
+                </div>
+              </Link>
+            </li>
+            <li>
+              <Link to="#">
+                <div>
+                  <Icon.Slope width={16} /> Slope
+                </div>
+              </Link>
+            </li>
+            <li>
+              <Link>
+                <div>
+                  <Icon.Phantom width={16} /> Phantom
+                </div>
+              </Link>
+            </li>
+          </ul>
+        </DropdownMenu>
       </Nav>
 
       {/* modal */}
