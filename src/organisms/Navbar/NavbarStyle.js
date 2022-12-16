@@ -77,6 +77,7 @@ export const PowerIcon = styled.div`
   height: 30px;
   border-radius: 50%;
   margin-top: 12px;
+  cursor: pointer;
   svg {
     color: #fff;
   }
@@ -159,5 +160,24 @@ export const DropdownMenu = styled.div`
   @media (max-width: 400px) {
     right: -90%;
     width: 250px;
+  }
+`;
+
+export const ModalWrapper = styled.div`
+  .box {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 70%;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24);
+    padding: 40px;
+  }
+
+  @media (max-width: 768px) {
+    .box {
+      /* margin-top: 200px; */
+    }
   }
 `;

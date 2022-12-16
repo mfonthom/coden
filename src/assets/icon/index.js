@@ -26,6 +26,10 @@ import { ReactComponent as Discord } from "./discord.svg";
 import { ReactComponent as Telegram } from "./telegram.svg";
 import { ReactComponent as ArrowLeft } from "./arrow-left.svg";
 import { ReactComponent as ArrowRight } from "./arrow-right.svg";
+import { ReactComponent as Google } from "./google.svg";
+import { ReactComponent as Github } from "./github.svg";
+import { ReactComponent as LinkedIn } from "./linkedIn.svg";
+import { ReactComponent as AngleRightWhite } from "./angle-right-white.svg";
 
 export default {
   Logo,
@@ -56,4 +60,8 @@ export default {
   Telegram,
   ArrowLeft,
   ArrowRight,
+  Google,
+  Github,
+  LinkedIn,
+  AngleRightWhite,
 };

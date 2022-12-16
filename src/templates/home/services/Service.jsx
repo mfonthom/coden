@@ -59,7 +59,7 @@ function Services() {
   return (
     <Wrapper>
       <Container>
-        <Typography variant="h4" align="center">
+        <Typography variant="h4" align="center" style={{ color: "#272927" }}>
           What We Do
         </Typography>
         <ServiceWrapper>
